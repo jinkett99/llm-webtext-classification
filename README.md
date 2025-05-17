@@ -3,8 +3,8 @@
 ## Overview
 In this repository, we explore various advanced methodologies for optimal feature extraction from unstructured business webtext data. The objective is to enable effective business profiling—specifically, identifying the hiring status of firms—by leveraging:
 
-- **LLM-based summarization** to distill relevant content from raw website text.
-- **Finetuning BERT for Sequence Classification** to predict firm hiring status.
+- **LLM-based summarization** to distill relevant content from raw/unstructured and incoherent website text.
+- **Finetuning BERT for Sequence Classification** to run training epoch and validate firm hiring status.
 - **Parameter-Efficient Fine-Tuning (PEFT)** methods, focusing on **LoRA (Low-Rank Adaptation)** for efficient model adaptation.
 
 These techniques aim to improve model interpretability, scalability, and performance across diverse web-based business text sources.
